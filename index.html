@@ -1,14 +1,104 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    
+    <title>Dongmin Wu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        .container {
+            width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            text-align: center;
+            background-color: #eee;
+            padding: 5px 0;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .content {
+            display: flex;
+            align-items: flex-start;
+        }
+        .content img {
+            width: 150px;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+        .content div {
+            flex: 1;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #ddd;
+            font-size: 0.9em;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1>Portfolio</h1>
-    <a href="/Portfolio/contact.html">contact</a>
-    <p>test</p>
+    <div class="container">
+        <header>
+            <h1>Dongmin Wu</h1>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/UC_Davis_logo.svg" alt="UC Davis Logo" style="height: 60px;">
+        </header>
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#publications">Publications</a> |
+            <a href="#projects">Projects</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="content">
+            <img src="your-photo.jpg" alt="Dongmin Wu">
+            <div>
+                <p>I am a student in the Department of Statistics and Mathematics at <strong>UC Davis</strong>. I have a strong foundation in statistical analysis, machine learning, and data science.</p>
+                <h3>Research Interests</h3>
+                <ul>
+                    <li>Statistical modeling and machine learning</li>
+                    <li>Time series analysis and predictive modeling</li>
+                    <li>Optimization under uncertainty</li>
+                </ul>
+                <p>Here is a link to my <a href="resume.pdf" target="_blank">resume</a>.</p>
+                <p><strong>I am looking for internship opportunities in data science and machine learning starting Summer 2025!</strong></p>
+                <p>Email: <em>wudongmin2002@gmail.com</em></p>
+            </div>
+        </div>
+        <footer>
+            Contact: <a href="mailto:wudongmin2002@gmail.com">wudongmin2002@gmail.com</a>
+        </footer>
+    </div>
 </body>
 </html>
