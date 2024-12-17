@@ -93,8 +93,10 @@
             <a onclick="showContent('home')">Home</a> |
             <a onclick="showContent('educations')">Educations</a> |
             <a onclick="showContent('skills')">Skills</a> |
+            <a onclick="showContent('experience')">Experience</a> |
             <a onclick="showContent('projects')">Projects</a> |
             <a onclick="showContent('interests')">Interests</a>
+            
         </nav>
 
         <!-- Content Sections -->
@@ -113,10 +115,108 @@
         </div>
 
         <div id="educations" class="content-section">
-            <h2>Educations</h2>
-            <p>Bachelor of Science in Statistics and Mathematics (Double Major)</p>
-            <p>Minor in Computer Science, University of California, Davis</p>
+            <h2>Education</h2>
+            <div style="margin-bottom: 20px;">
+                <h3>Bachelor of Science in Mathematics and Statistics</h3>
+                <p><strong>University of California, Davis</strong> | Expected Graduation: Winter 2025</p>
+                <p>
+                    I am currently completing a double major in <span class="highlight">Mathematics</span> and <span class="highlight">Statistics</span> with 
+                    a <span class="highlight">minor in Computer Science</span> at UC Davis. My coursework reflects a strong focus on theoretical foundations and practical applications 
+                    in statistics, data science, and advanced mathematics.
+                </p>
+            </div>
+        
+            <!-- Mathematics Major -->
+            <div style="margin-bottom: 20px;">
+                <h3>Key Coursework – Mathematics</h3>
+                <ul>
+                    <li><span class="highlight">Real Analysis:</span> MAT 127A, MAT 127B, MAT 127C</li>
+                    <li><span class="highlight">Modern Algebra:</span> MAT 150A, MAT 150B, MAT 150C</li>
+                    <li><span class="highlight">Complex Variables:</span> MAT 185A</li>
+                    <li><span class="highlight">Combinatorics:</span> MAT 145, MAT 146</li>
+                    <li><span class="highlight">Optimization:</span> MAT 168</li>
+                </ul>
+            </div>
+        
+            <!-- Statistics Major -->
+            <div style="margin-bottom: 20px;">
+                <h3>Key Coursework – Statistics</h3>
+                <ul>
+                    <li><span class="highlight">Regression Analysis:</span> STA 108</li>
+                    <li><span class="highlight">Analysis of Variance (ANOVA):</span> STA 106</li>
+                    <li><span class="highlight">Applied Time Series Analysis:</span> STA 137</li>
+                    <li><span class="highlight">Probability Theory:</span> STA 131A, STA 131B</li>
+                    <li><span class="highlight">Gateway to Data Science:</span> STA 032</li>
+                    <li><span class="highlight">Statistical Data Technologies:</span> STA 141A, STA 141B</li>
+                </ul>
+            </div>
+        
+            <!-- Computer Science Minor -->
+            <div style="margin-bottom: 20px;">
+                <h3>Key Coursework – Computer Science</h3>
+                <ul>
+                    <li><span class="highlight">Data Structures:</span> ECS 032B</li>
+                    <li><span class="highlight">Algorithm Design and Analysis:</span> ECS 122A</li>
+                    <li><span class="highlight">Development in UNIX and C++:</span> ECS 034</li>
+                    <li><span class="highlight">Machine Learning:</span> ECS 171</li>
+                    <li><span class="highlight">Scientific Computation:</span> ECS 130</li>
+                </ul>
+            </div>
+        
+            <!-- Academic Achievements -->
+            <div style="margin-bottom: 20px;">
+                <h3>Academic Achievements</h3>
+                <ul>
+                    <li>Current UC GPA: <span class="highlight">3.37</span></li>
+                    <li>Good Academic Standing at UC Davis</li>
+                </ul>
+            </div>
+        
+            <!-- Education Image -->
+            <div style="text-align: center;">
+                <img src="education-photo.jpg" alt="UC Davis Graduation" style="width: 600px; border-radius: 8px; margin-top: 10px;">
+            </div>
         </div>
+        
+
+        <!--
+        <div id="educations" class="content-section">
+            <h2>Education</h2>
+        
+            
+            <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                <img src="ucd-logo.png" alt="UC Davis Logo" style="width: 80px; margin-right: 20px;">
+                <div>
+                    <h3>University of California, Davis</h3>
+                    <p><strong>Bachelor of Science</strong>, Mathematics and Statistics</p>
+                    <p><span class="italic">September 2021 - May 2025</span></p>
+                    <p>Relevant Courses: Real Analysis, Number Theory, Combinatorics, Probability, Algorithm Design & Analysis, Data Structures in C.</p>
+                    <p><strong>Skills:</strong> R, Python, SQL, C++, Machine Learning, Data Visualization, Optimization, Regression Analysis, ANOVA, Statistical Modeling, Time Series Analysis, Algorithms.</p>
+                </div>
+            </div>
+        
+            
+            <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                <img src="montverde-logo.png" alt="Montverde Academy Logo" style="width: 80px; margin-right: 20px;">
+                <div>
+                    <h3>Montverde Academy</h3>
+                    <p><span class="italic">September 2016 - June 2020</span></p>
+                    <p>Activities and Societies: National Honor Society</p>
+                    <p><strong>Skills:</strong> Java, Computer Science, Microsoft Office, Programming</p>
+                </div>
+            </div>
+        
+            
+            <div style="display: flex; align-items: center;">
+                <img src="ijga-logo.png" alt="IJGA Logo" style="width: 80px; margin-right: 20px;">
+                <div>
+                    <h3>International Junior Golf Academy (IJGA)</h3>
+                    <p><span class="italic">July 2016 - September 2020</span></p>
+                    <p>Focused on balancing academics with elite-level golf training.</p>
+                </div>
+            </div>
+        </div>
+        -->
 
         <div id="skills" class="content-section">
             <h2>Skills</h2>
@@ -126,6 +226,55 @@
                 <li>Machine Learning: Supervised and Unsupervised Learning</li>
             </ul>
         </div>
+
+        <div id="experience" class="content-section">
+            <h2>Experience</h2>
+            <p>Through various roles during my time at UC Davis, I have developed strong communication, teamwork, and problem-solving skills:</p>
+            
+            <!-- Orientation Leader -->
+            <div style="margin-bottom: 20px; display: flex; align-items: center;">
+                <img src="orientation-leader.jpg" alt="Orientation Leader" style="width: 150px; height: 150px; border-radius: 8px; margin-right: 20px;">
+                <div>
+                    <h3>Orientation Leader</h3>
+                    <p><span class="highlight">UC Davis Student Housing & Dining Services</span> | <span class="italic">May 2023 - September 2023</span></p>
+                    <ul>
+                        <li>Mentored new students, guiding them through academic and social transitions.</li>
+                        <li>Led campus tours and facilitated group sessions to familiarize students with UC Davis resources.</li>
+                        <li>Contributed to planning and executing orientation events, ensuring a welcoming environment.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Learning Assistant -->
+            <div style="margin-bottom: 20px; display: flex; align-items: center;">
+                
+                <div>
+                    <h3>Learning Assistant - Calculus for Biology & Medicine</h3>
+                    <p><span class="highlight">UC Davis Mathematics Department</span> | <span class="italic">September 2022 - December 2022</span></p>
+                    <ul>
+                        <li>Assisted 30+ students in class discussions, helping them master complex calculus concepts.</li>
+                        <li>Provided personalized tutoring and guidance, improving students’ problem-solving abilities.</li>
+                        <li>Facilitated academic discussions to enhance group learning outcomes.</li>
+                    </ul>
+                </div>
+            </div>
+        
+            
+        
+            <!-- Coffee House Kitchen Employee -->
+            <div style="margin-bottom: 20px; display: flex; align-items: center;">
+                <div>
+                    <h3>Coffee House Kitchen Employee</h3>
+                    <p><span class="highlight">Associated Students of UC Davis</span> | <span class="italic">March 2022 - September 2023</span></p>
+                    <ul>
+                        <li>Prepared a variety of menu items, adhering to established recipes and quality standards.</li>
+                        <li>Performed food preparation duties, including washing, cutting, and marinating ingredients.</li>
+                        <li>Collaborated with team members to streamline kitchen operations and maintain efficiency.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
 
         <div id="projects" class="content-section">
             <h2>Projects and Academic Experience</h2>
@@ -184,8 +333,74 @@
 
         <div id="interests" class="content-section">
             <h2>Interests</h2>
-            <p>Data Science, Machine Learning, Time Series Analysis, and Optimization.</p>
+            <p>Beyond academics and professional pursuits, I have a wide range of personal interests that reflect my creativity, discipline, and curiosity:</p>
+        
+            <!-- Psychology -->
+            <div style="margin-bottom: 20px;">
+                <h3>1. Psychology</h3>
+                <p>
+                    I find psychology fascinating and incredibly intuitive. To me, understanding human behavior and mental processes is both logical and enlightening. 
+                    I have spent time self-studying psychological concepts, which deepened my critical thinking and understanding of the world around me.
+                </p>
+            </div>
+        
+            <!-- Golf -->
+            <div style="margin-bottom: 20px;">
+                <h3>2. Golf</h3>
+                <p>
+                    I have been playing golf since middle school. It has been a sport that not only challenges my physical skills but also significantly 
+                    strengthens my <span class="highlight">mental discipline</span>, strategy, and rational thinking. Golf teaches patience and precision—qualities I carry into my everyday life.
+                </p>
+                <video width="600" controls>
+                    <source src="golf-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        
+            <!-- Computer Assembly and Repair -->
+            <div style="margin-bottom: 20px;">
+                <h3>3. Computer Assembly and Repair</h3>
+                <p>
+                    During my university years, I developed a strong interest in building and troubleshooting computers. Learning to assemble hardware 
+                    and fix technical issues has been both a rewarding and practical skill. It reflects my ability to problem-solve and work with technology hands-on.
+                </p>
+                <img src="pc-build.jpg" alt="Computer Assembly" style="width: 600px; border-radius: 8px;">
+            </div>
+        
+            <!-- Drumming -->
+            <div style="margin-bottom: 20px;">
+                <h3>4. Drumming</h3>
+                <p>
+                    I started playing the drums in elementary school, and it has remained a passion of mine ever since. Drumming is not only an artistic expression 
+                    but also a way for me to enhance my <span class="highlight">creativity</span> and <span class="highlight">concentration</span>. The rhythmic challenge is something I enjoy greatly.
+                </p>
+            </div>
+        
+            <!-- Cooking -->
+            <div style="margin-bottom: 20px;">
+                <h3>5. Cooking</h3>
+                <p>
+                    Cooking is one of my favorite hobbies. I love exploring different cooking methods—from <span class="highlight">pan-frying</span>, 
+                    <span class="highlight">steaming</span>, and <span class="highlight">grilling</span> to <span class="highlight">braising</span> and <span class="highlight">simmering</span>. 
+                    Preparing dishes for myself and others brings me joy and a sense of accomplishment.
+                </p>
+                <img src="cooking.jpg" alt="Cooking Dish" style="width: 600px; border-radius: 8px;">
+            </div>
+        
+            <!-- Fitness -->
+            <div style="margin-bottom: 20px;">
+                <h3>6. Fitness</h3>
+                <p>
+                    Staying fit and healthy is an essential part of my lifestyle. Through regular workouts and fitness routines, I aim to maintain both my 
+                    physical and mental well-being. Fitness has taught me discipline, persistence, and goal-setting.
+                </p>
+                <video width="600" controls>
+                    <source src="fitness-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
         </div>
+        
 
         <!-- Footer -->
         <div class="footer-container">
