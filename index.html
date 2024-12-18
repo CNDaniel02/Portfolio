@@ -89,94 +89,109 @@
         </div>
 
         <!-- Navigation -->
-        <nav>
-            <a onclick="showContent('home')">Home</a> |
-            <a onclick="showContent('educations')">Educations</a> |
-            <a onclick="showContent('skills')">Skills</a> |
-            <a onclick="showContent('experience')">Experience</a> |
-            <a onclick="showContent('projects')">Projects</a> |
-            <a onclick="showContent('interests')">Interests</a>
-            
-        </nav>
+<nav style="text-align: center; background-color: #eee; padding: 5px 0; margin-bottom: 20px;">
+    <a onclick="showContent('home')" style="color: #2556b7; text-decoration: none; font-weight: bold;">Home</a> |
+    <a onclick="showContent('educations')" style="color: #2556b7; text-decoration: none; font-weight: bold;">Educations</a> |
+    <a onclick="showContent('skills')" style="color: #2556b7; text-decoration: none; font-weight: bold;">Skills</a> |
+    <a onclick="showContent('experience')" style="color: #2556b7; text-decoration: none; font-weight: bold;">Experience</a> |
+    <a onclick="showContent('projects')" style="color: #2556b7; text-decoration: none; font-weight: bold;">Projects</a> |
+    <a onclick="showContent('interests')" style="color: #2556b7; text-decoration: none; font-weight: bold;">Interests</a>
+</nav>
 
-        <!-- Content Sections -->
-        <div id="home" class="content-section active">
-            <div style="display: flex; align-items: center; margin-bottom: 20px;">
-                <img src="cat.jpg" alt="Dongmin Wu" style="width: 150px; border-radius: 8px; margin-right: 20px;">
-                <div>
-                    <p>I am a graduating senior at <span class="highlight">UC Davis</span>, pursuing a double major in <span class="highlight">Statistics</span> and <span class="highlight">Mathematics</span> with a minor in <span class="highlight">Computer Science</span>.</p>
-                    <p>My academic foundation has equipped me with strong analytical, statistical, and programming skills, including proficiency in <span class="highlight">Python</span>, <span class="highlight">R</span>, <span class="highlight">SQL</span>, and <span class="highlight">C++</span>, as well as expertise in data visualization libraries like <span class="highlight">Pandas</span> and <span class="highlight">Matplotlib</span>. I am passionate about leveraging data to uncover meaningful insights, build predictive models, and solve real-world challenges.</p>
-                </div>
-            </div>
-            <p>I am actively seeking any <span class="highlight">data-related positions</span>, including roles in data sciencemachine learning, and statistical analysis. My strong foundation in <span class="highlight">time series analysis</span>, <span class="highlight">regression</span>, <span class="highlight">ANOVA</span>, and <span class="highlight">machine learning</span> enables me to adapt to diverse industry challenges.</p>
-            <p>If further education becomes a necessary step, I plan to pursue graduate studies in <span class="highlight">Applied Statistics</span>, <span class="highlight">Data Science</span>, <span class="highlight">Machine Learning</span>, or  <span class="highlight">Quantitative Psychology</span>, where I can continue to deepen my expertise and expand my research opportunities.</p>
-            <p>Here is a link to my <a href="resume.pdf" target="_blank"><span class="highlight">resume</span></a>.</p>
-            <p>Email: <a href="mailto:wudongmin2002@gmail.com">wudongmin2002@gmail.com</a></p>
+<div id="home" class="content-section active">
+    <!-- 照片和简介 -->
+    <div style="display: flex; align-items: center; margin-bottom: 20px;">
+        <img src="cat.jpg" alt="Dongmin Wu" style="width: 200px; border-radius: 8px; margin-right: 20px;">
+        <div>
+            <!-- 学术背景，去除全粗体，仅对关键词加粗 -->
+            <p>
+                I am a graduating senior at <span class="highlight">UC Davis</span>, pursuing a double major in 
+                <strong>Statistics</strong> and <strong>Mathematics</strong> with a minor in 
+                <strong>Computer Science</strong>.
+            </p>
+            <!-- 研究生申请计划 -->
+            <p style="line-height: 1.6;">
+                I am actively applying for graduate programs in 
+                <span class="highlight" style="font-weight: bold; font-size: 0.95em;">Applied Statistics</span>, 
+                <span class="highlight" style="font-weight: bold; font-size: 0.95em;">Data Science</span>, 
+                <span class="highlight" style="font-weight: bold; font-size: 0.95em;">Machine Learning</span>, and 
+                <span class="highlight" style="font-weight: bold; font-size: 0.95em;">Quantitative Psychology</span> 
+                to deepen my expertise and contribute to impactful research.
+            </p>
+            
         </div>
+    </div>
+
+    <!-- 求职意向 -->
+    <p style="font-size: 1.2em; font-weight: bold; margin-top: 10px;">
+        I am actively seeking <span class="highlight">data-related positions</span> in the following areas:
+    </p>
+    <ul style="margin-left: 20px; line-height: 1.6;">
+        <li>Data Science and Machine Learning</li>
+        <li>Statistical Analysis and Predictive Modeling</li>
+        <li>Risk Analysis</li>
+        <li>Optimization and Quantitative Research</li>
+    </ul>
+
+    <!-- 简历链接 -->
+    <p>Here is a link to my <a href="resume.pdf" target="_blank"><span class="highlight">resume</span></a>.</p>
+</div>
+
+
 
         <div id="educations" class="content-section">
             <h2>Education</h2>
-            <div style="margin-bottom: 20px;">
-                <h3>Bachelor of Science in Mathematics and Statistics</h3>
-                <p><strong>University of California, Davis</strong> | Expected Graduation: Winter 2025</p>
-                <p>
-                    I am currently completing a double major in <span class="highlight">Mathematics</span> and <span class="highlight">Statistics</span> with 
-                    a <span class="highlight">minor in Computer Science</span> at UC Davis. My coursework reflects a strong focus on theoretical foundations and practical applications 
-                    in statistics, data science, and advanced mathematics.
-                </p>
+            
+            <!-- UC Davis -->
+            <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                <img src="ucdlogo.jpg" alt="UC Davis Logo" style="width: 80px; margin-right: 20px;">
+                <div>
+                    <h3>University of California, Davis</h3>
+                    <p><strong>Bachelor of Science: Mathematics, Statistics</strong></p>
+                    <p><span class="italic">September 2021 - June 2025</span></p>
+                    <p>
+                        I am completing a double major in <span class="highlight">Mathematics</span> and <span class="highlight">Statistics</span> with a <span class="highlight">minor in Computer Science</span>.  
+                        My coursework has focused on <span class="highlight">real analysis, modern algebra, optimization</span>, as well as advanced topics in <span class="highlight">regression analysis</span>,  
+                        <span class="highlight">ANOVA</span>, <span class="highlight">time series analysis</span>, and <span class="highlight">machine learning</span>.
+                    </p>
+                    <p>
+                        For a detailed list of courses and grades, <a href="Unofficial Transcript.pdf" target="_blank"><span class="highlight">unofficial transcript</span></a>.
+                    </p>
+                </div>
             </div>
         
-            <!-- Mathematics Major -->
-            <div style="margin-bottom: 20px;">
-                <h3>Key Coursework – Mathematics</h3>
-                <ul>
-                    <li><span class="highlight">Real Analysis:</span> MAT 127A, MAT 127B, MAT 127C</li>
-                    <li><span class="highlight">Modern Algebra:</span> MAT 150A, MAT 150B, MAT 150C</li>
-                    <li><span class="highlight">Complex Variables:</span> MAT 185A</li>
-                    <li><span class="highlight">Combinatorics:</span> MAT 145, MAT 146</li>
-                    <li><span class="highlight">Optimization:</span> MAT 168</li>
-                </ul>
-            </div>
-        
-            <!-- Statistics Major -->
-            <div style="margin-bottom: 20px;">
-                <h3>Key Coursework – Statistics</h3>
-                <ul>
-                    <li><span class="highlight">Regression Analysis:</span> STA 108</li>
-                    <li><span class="highlight">Analysis of Variance (ANOVA):</span> STA 106</li>
-                    <li><span class="highlight">Applied Time Series Analysis:</span> STA 137</li>
-                    <li><span class="highlight">Probability Theory:</span> STA 131A, STA 131B</li>
-                    <li><span class="highlight">Gateway to Data Science:</span> STA 032</li>
-                    <li><span class="highlight">Statistical Data Technologies:</span> STA 141A, STA 141B</li>
-                </ul>
-            </div>
-        
-            <!-- Computer Science Minor -->
-            <div style="margin-bottom: 20px;">
-                <h3>Key Coursework – Computer Science</h3>
-                <ul>
-                    <li><span class="highlight">Data Structures:</span> ECS 032B</li>
-                    <li><span class="highlight">Algorithm Design and Analysis:</span> ECS 122A</li>
-                    <li><span class="highlight">Development in UNIX and C++:</span> ECS 034</li>
-                    <li><span class="highlight">Machine Learning:</span> ECS 171</li>
-                    <li><span class="highlight">Scientific Computation:</span> ECS 130</li>
-                </ul>
-            </div>
-        
-            <!-- Academic Achievements -->
+            <!-- Academic Achievements 
             <div style="margin-bottom: 20px;">
                 <h3>Academic Achievements</h3>
                 <ul>
                     <li>Current UC GPA: <span class="highlight">3.37</span></li>
                     <li>Good Academic Standing at UC Davis</li>
                 </ul>
+            </div>-->
+        
+            <!-- Montverde Academy -->
+            <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                <img src="montverde.jpg" alt="Montverde Academy Logo" style="width: 80px; margin-right: 20px;">
+                <div>
+                    <h3>Montverde Academy</h3>
+                    <p><span class="italic">September 2016 - June 2020</span></p>
+                    <p>Activities and Societies: <span class="highlight">National Honor Society</span></p>
+                    <p><strong>Skills:</strong> Java, Computer Science, Microsoft Office, Programming</p>
+                </div>
             </div>
         
-            <!-- Education Image -->
-            <div style="text-align: center;">
-                <img src="education-photo.jpg" alt="UC Davis Graduation" style="width: 600px; border-radius: 8px; margin-top: 10px;">
+            <!-- IJGA -->
+            <div style="display: flex; align-items: center;">
+                <img src="ijga.png" alt="IJGA Logo" style="width: 80px; margin-right: 20px;">
+                <div>
+                    <h3>International Junior Golf Academy (IJGA)</h3>
+                    <p><span class="italic">July 2016 - September 2020</span></p>
+                    <p>Focused on balancing academics with <span class="highlight">elite-level golf training</span>.</p>
+                </div>
             </div>
         </div>
+        
+        
         
 
         <!--
@@ -220,12 +235,52 @@
 
         <div id="skills" class="content-section">
             <h2>Skills</h2>
-            <ul>
-                <li>Programming Languages: Python, R, SQL, C++</li>
-                <li>Data Analysis Tools: Pandas, NumPy, ggplot2, Tableau</li>
-                <li>Machine Learning: Supervised and Unsupervised Learning</li>
-            </ul>
+            <p>Throughout my academic studies and projects, I have developed strong technical and analytical skills. Below are the key skills I have acquired:</p>
+        
+            <!-- Programming Languages -->
+            <div style="margin-bottom: 20px;">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li><span class="highlight">Python</span>: Proficient in data analysis, machine learning, and visualization using libraries such as Pandas, NumPy, Matplotlib, Scikit-learn.</li>
+                    <li><span class="highlight">R</span>: Skilled in statistical modeling, hypothesis testing, and regression analysis.</li>
+                    <li><span class="highlight">SQL</span>: Experienced in writing queries for data extraction, transformation, and management.</li>
+                    <li><span class="highlight">C++</span>: Strong foundation in algorithm design, data structures, and computational programming.</li>
+                </ul>
+            </div>
+        
+            <!-- Data Science and Analytics Tools -->
+            <div style="margin-bottom: 20px;">
+                <h3>Data Science & Analytics Tools</h3>
+                <ul>
+                    <li><span class="highlight">Machine Learning</span>: Linear/Logistic Regression, Decision Trees, PCA, Stepwise Regression, ARMA/ARIMA models.</li>
+                    <li><span class="highlight">Statistical Methods</span>: ANOVA, Time Series Analysis, Hypothesis Testing, Cross-Validation.</li>
+                    <li><span class="highlight">Visualization Tools</span>: Matplotlib, Seaborn, ggplot2, Tableau.</li>
+                    <li><span class="highlight">Data Wrangling</span>: Proficient in data cleaning, transformation, and feature engineering.</li>
+                </ul>
+            </div>
+        
+            <!-- Technical Tools -->
+            <div style="margin-bottom: 20px;">
+                <h3>Technical Tools</h3>
+                <ul>
+                    <li><span class="highlight">Git & GitHub</span>: Version control and collaborative development.</li>
+                    <li><span class="highlight">Jupyter Notebook</span>: Interactive coding for data science and research.</li>
+                    <li><span class="highlight">Unix/Linux</span>: Command-line programming and development.</li>
+                </ul>
+            </div>
+        
+            <!-- Soft Skills -->
+            <div style="margin-bottom: 20px;">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li><span class="highlight">Communication</span>: Mentoring, tutoring, and presenting complex ideas clearly and effectively.</li>
+                    <li><span class="highlight">Teamwork</span>: Collaborative experience through campus jobs and group projects.</li>
+                    <li><span class="highlight">Problem-Solving</span>: Analytical thinking and critical problem-solving applied to data challenges.</li>
+                    <li><span class="highlight">Leadership</span>: Developed through roles like Learning Assistant and Orientation Leader.</li>
+                </ul>
+            </div>
         </div>
+        
 
         <div id="experience" class="content-section">
             <h2>Experience</h2>
@@ -233,7 +288,7 @@
             
             <!-- Orientation Leader -->
             <div style="margin-bottom: 20px; display: flex; align-items: center;">
-                <img src="orientation-leader.jpg" alt="Orientation Leader" style="width: 150px; height: 150px; border-radius: 8px; margin-right: 20px;">
+                <img src="group.jpg" alt="Orientation Leader" style="max-width: 150px; height: auto; border-radius: 8px; margin-right: 20px;">
                 <div>
                     <h3>Orientation Leader</h3>
                     <p><span class="highlight">UC Davis Student Housing & Dining Services</span> | <span class="italic">May 2023 - September 2023</span></p>
@@ -244,6 +299,7 @@
                     </ul>
                 </div>
             </div>
+            
 
             <!-- Learning Assistant -->
             <div style="margin-bottom: 20px; display: flex; align-items: center;">
@@ -297,7 +353,7 @@
                     <span class="highlight">Linear Regression</span>, <span class="highlight">Stepwise Regression</span> (AIC-based), 
                     and <span class="highlight">PCA</span> to address multicollinearity.
                 </p>
-                <p>Code available on GitHub: <a href="https://github.com/CNDaniel02/Linear-Regression-Graduate-Admission" target="_blank">Graduate Admissions</a></p>
+                <p>Code available on GitHub: <a href="https://github.com/CNDaniel02/Linear-Regression-Graduate-Admission" target="_blank">Graduate_Admissions</a></p>
             </div>
         
             <div style="margin-bottom: 20px;">
@@ -306,6 +362,7 @@
                     Forecasted Southern California housing prices using <span class="highlight">Box-Cox transformations</span>, 
                     decomposition methods, and <span class="highlight">ARMA models</span> to provide insights for future trends.
                 </p>
+                <p>Code available on GitHub: <a href="https://github.com/CNDaniel02/TimeSeries-HousePricePrediction" target="_blank">House_Price_Prediction</a></p>
             </div>
         
             <div style="margin-bottom: 20px;">
@@ -315,6 +372,8 @@
                     and professions, employing <span class="highlight">one-way and two-way ANOVA</span> with diagnostic tests 
                     and multiple comparison methods.
                 </p>
+                <p>Code available on GitHub: <a href="https://github.com/CNDaniel02/Analysis-of-Variance" target="_blank">Analysis_of_Variance</a></p>
+
             </div>
         
             <div style="margin-bottom: 20px;">
@@ -323,12 +382,10 @@
                     Analyzed the relationship between education level and income across U.S. regions using 
                     regional <span class="highlight">linear regression models</span> for comparison and evaluation.
                 </p>
+                <p>Code available on GitHub: <a href="https://github.com/CNDaniel02/Regression_Analysis" target="_blank">Regression_Analysis</a></p>
             </div>
         
-            <p>
-                These experiences have refined my ability to process complex datasets, build statistical and machine learning models, 
-                and communicate findings effectively.
-            </p>
+            
         </div>
 
         <div id="interests" class="content-section">
@@ -351,10 +408,12 @@
                     I have been playing golf since middle school. It has been a sport that not only challenges my physical skills but also significantly 
                     strengthens my <span class="highlight">mental discipline</span>, strategy, and rational thinking. Golf teaches patience and precision—qualities I carry into my everyday life.
                 </p>
-                <video width="600" controls>
-                    <source src="golf-video.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                <div style="text-align: center;">
+                    <video width="400" muted controls>
+                        <source src="golf.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
             </div>
         
             <!-- Computer Assembly and Repair -->
@@ -364,7 +423,11 @@
                     During my university years, I developed a strong interest in building and troubleshooting computers. Learning to assemble hardware 
                     and fix technical issues has been both a rewarding and practical skill. It reflects my ability to problem-solve and work with technology hands-on.
                 </p>
-                <img src="pc-build.jpg" alt="Computer Assembly" style="width: 600px; border-radius: 8px;">
+                <div style="display: flex; justify-content: center; gap: 10px;">
+                    <img src="computer1.jpg" alt="Cooking Dish" style="width: 25%; height: auto; object-fit: contain; border-radius: 8px;">
+                    <img src="computer3.jpg" alt="Cooking Dish" style="width: 25%; height: auto; object-fit: contain; border-radius: 8px;">
+                    <img src="computer2.jpg" alt="Cooking Dish" style="width: 25%; height: auto; object-fit: contain; border-radius: 8px;">
+                </div>
             </div>
         
             <!-- Drumming -->
@@ -380,12 +443,18 @@
             <div style="margin-bottom: 20px;">
                 <h3>5. Cooking</h3>
                 <p>
-                    Cooking is one of my favorite hobbies. I love exploring different cooking methods—from <span class="highlight">pan-frying</span>, 
-                    <span class="highlight">steaming</span>, and <span class="highlight">grilling</span> to <span class="highlight">braising</span> and <span class="highlight">simmering</span>. 
-                    Preparing dishes for myself and others brings me joy and a sense of accomplishment.
+                    Cooking is one of my favorite hobbies. I love exploring different cooking methods—from 
+                    <span class="highlight">pan-frying</span>, <span class="highlight">steaming</span>, 
+                    and <span class="highlight">grilling</span> to <span class="highlight">braising</span> and 
+                    <span class="highlight">simmering</span>. Preparing dishes for myself and others brings me joy and a sense of accomplishment.
                 </p>
-                <img src="cooking.jpg" alt="Cooking Dish" style="width: 600px; border-radius: 8px;">
+                <div style="display: flex; justify-content: center; gap: 10px;">
+                    <img src="dish1.jpg" alt="Cooking Dish" style="width: 25%; height: auto; object-fit: contain; border-radius: 8px;">
+                    <img src="dish3.jpg" alt="Cooking Dish" style="width: 25%; height: auto; object-fit: contain; border-radius: 8px;">
+                    <img src="dish2.jpg" alt="Cooking Dish" style="width: 25%; height: auto; object-fit: contain; border-radius: 8px;">
+                </div>
             </div>
+            
         
             <!-- Fitness -->
             <div style="margin-bottom: 20px;">
@@ -394,10 +463,12 @@
                     Staying fit and healthy is an essential part of my lifestyle. Through regular workouts and fitness routines, I aim to maintain both my 
                     physical and mental well-being. Fitness has taught me discipline, persistence, and goal-setting.
                 </p>
-                <video width="600" controls>
-                    <source src="fitness-video.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                <div style="text-align: center;">
+                    <video width="400" muted controls>
+                        <source src="pullup.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
             </div>
         </div>
         
