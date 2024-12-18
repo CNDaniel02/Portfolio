@@ -47,10 +47,10 @@
             cursor: pointer;
         }
         .content-section {
-            display: none; /* 默认隐藏所有内容 */
+            display: none;
         }
         .content-section.active {
-            display: block; /* 只有当前激活的内容显示 */
+            display: block; 
         }
         .footer-container {
             text-align: left;
@@ -88,7 +88,7 @@
             <img src="UCD.webp" alt="UC Davis Logo" class="ucd-logo">
         </div>
 
-        <!-- Navigation -->
+        <!--navigator-->
 <nav style="text-align: center; background-color: #eee; padding: 5px 0; margin-bottom: 20px;">
     <a onclick="showContent('home')" style="color: #2556b7; text-decoration: none; font-weight: bold;">Home</a> |
     <a onclick="showContent('educations')" style="color: #2556b7; text-decoration: none; font-weight: bold;">Educations</a> |
@@ -99,17 +99,17 @@
 </nav>
 
 <div id="home" class="content-section active">
-    <!-- 照片和简介 -->
+    <!--intro-->
     <div style="display: flex; align-items: center; margin-bottom: 20px;">
         <img src="cat.jpg" alt="Dongmin Wu" style="width: 200px; border-radius: 8px; margin-right: 20px;">
         <div>
-            <!-- 学术背景，去除全粗体，仅对关键词加粗 -->
+            <!--background-->
             <p>
                 I am a graduating senior at <span class="highlight">UC Davis</span>, pursuing a double major in 
                 <strong>Statistics</strong> and <strong>Mathematics</strong> with a minor in 
                 <strong>Computer Science</strong>.
             </p>
-            <!-- 研究生申请计划 -->
+            <!--graduate admission-->
             <p style="line-height: 1.6;">
                 I am actively applying for graduate programs in 
                 <span class="highlight" style="font-weight: bold; font-size: 0.95em;">Applied Statistics</span>, 
@@ -122,7 +122,7 @@
         </div>
     </div>
 
-    <!-- 求职意向 -->
+    <!--job seeking-->
     <p style="font-size: 1.2em; font-weight: bold; margin-top: 10px;">
         I am actively seeking <span class="highlight">data-related positions</span> in the following areas:
     </p>
@@ -133,7 +133,7 @@
         <li>Optimization and Quantitative Research</li>
     </ul>
 
-    <!-- 简历链接 -->
+    <!--resume link-->
     <p>Here is a link to my <a href="resume.pdf" target="_blank"><span class="highlight">resume</span></a>.</p>
 </div>
 
@@ -480,13 +480,13 @@
     </div>
 
     <script>
-        // JavaScript function to switch between content sections
+        //javascript for inframe
         function showContent(sectionId) {
-            // 隐藏所有内容
+            // hide all
             const sections = document.querySelectorAll('.content-section');
             sections.forEach(section => section.classList.remove('active'));
 
-            // 显示被点击的内容
+            // reveal what clicked
             document.getElementById(sectionId).classList.add('active');
         }
     </script>
