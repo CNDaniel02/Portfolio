@@ -1,0 +1,40 @@
+我现在没有什么希望求职的领域，因为作为一名国际生，如果找不到工作就会被驱逐出境，所以现在我任何只要和我专业相关的工作我都愿意做，数据科学 数据分析 机器学习 风险分析 任何和数据相关的工作都可以。但是对于金融经济这一块我没有任何的基础知识，以后可能会学但是目前不太考虑；我对教育比较感兴趣但是作为职业来说并不是一个很好的选择，因为前景晋升空间不高，工资也不高。我自身对心理学也很感兴趣，我自认为心理学只是对于我来说非常的简单易懂（除了生物部分），如果申请研究生的话方向就是应用统计，数据科学，机器学习等和data相挂钩的，或者心理学，我记得好像心理学也有和data相关的东西但是记不太清了。
+我的技能包括会Python, R, SQL, C++，熟练使用panda matplot等包，马上还会开始学database等和数据相关的技能，机器学习的算法等我也学了，时间序列分析，回归分析，anova分析等这些知识都在大学课程内有学习，随后我会给你一份我的transcript供你查看。
+我完成的项目都是在学校课程布置的，
+有机器学习：This project predicts salaries based on various features such as region, experience level, job category, and company size. It includes data preprocessing, visualization, model selection, and web-based interface for prediction. 
+
+有Fundamentals of Statistical Data Science：This study uses the “Graduate Admissions 2” dataset from Kaggle to build predictive models and analyze how different factors influence the chances of admission. As students about to graduate from college and planning to apply for graduate school, this study is meaningful to me which helps me better understand how influential some key factors are in the admissions process and provides data-driven advice for other applicants as well. This study uses various regression models including the Linear Regression Model, Polynomial Regression Model, and Interaction Model. We also used a stepwise regression model by evaluating AIC during each step and PCA model applied to reduce issues with multicollinearity in the data. These models are also compared and evaluated with following methods:
+-Cross-Validation (CV): Using CV to assess the model's generalization performance and check overfit.
+-Model Comparison: Compare and evaluate different models using metrics such as RSE, MSE, R^2, and AIC/BIC.
+
+有Time Series Analysis: This paper conducts a time series analysis of housing prices in Southern California from 1995 to the present. The goal is to predict future prices and provide insights for potential homebuyers. We have applied Box-Cox transformations for stabilizing the variance and decomposed into trend, seasonal, and residual components with ARMA modeling to the residuals. Finally, a ten-year forecast was generated with predictions from the smooth and rough components, with potential future trends in home prices. 
+
+有analysis of variance的两个projects: The first project focused on analyzing whether nest size differences (control, enlarged, or reduced) influence the average weight of sparrows on Kent Island. This involved conducting a one-way ANOVA to test if there were significant differences in mean sparrow weight across the three nest treatments. If the ANOVA indicated at least one group was different, follow-up confidence intervals—adjusted using methods like Tukey’s and Bonferroni’s multipliers—were constructed to identify which specific treatments differed and to quantify the size of those differences. The analysis aimed to determine which nest type had the strongest effect on sparrow size, and to estimate the average treatment effects (γᵢ) for each nest type on the overall sparrow population.
+
+The second project examined salary differences among three professional categories (Data Scientist, Software Engineer, and Bioinformatics Engineer) across two regions (San Francisco and Seattle). A two-factor ANOVA was used to assess whether profession (Factor A), region (Factor B), or their interaction influenced average salaries. Preliminary steps included summarizing the dataset, performing diagnostic checks (including normality and homogeneity of variance tests), and ensuring that ANOVA assumptions were met. Once validated, the analysis tested main and interaction effects at a 5% significance level. Multiple comparison procedures (Tukey, Scheffe, Bonferroni) were then applied to interpret pairwise and contrast comparisons. The goal was to provide insights into how these factors interact to influence salary patterns in the tech industry.
+
+有regression analysis：The goal of this report is to compare the relationship between Income: Total Personal Income (dollars) and Degree: Percent of Adult population (persons 25 years old or older) with bachelor’s degree in different Regions (North East, North Central, South, West) by using dataset ‘CDI.csv’ that includes variables ‘income’, ‘degree’, ‘region’. We will fit linear regression models for each region and trying to find the best model that explains the impact of education level on income by comparing the models. 
+
+我没有实习经验，有一些校内工作的经验：
+• Learning Assistance-Calculus for Biology & Medicine
+UC Davis Mathematics Department	September 2022-December 2022
+-Assisted 30 students in class discussions and provided tutoring to students in course materials.
+• Orientation Leader
+Student Housing & Dining Services University of California	May 2023-September 2023
+-Mentored new students through academic and social transitions, facilitating their integration into UC Davis.
+-Engaged actively in all orientation events, including planning, meetings, and community-building initiatives.
+-Led campus tours and orientation sessions, enhancing group understanding of resources.
+-Upheld the UC Davis Principles of Community, demonstrating professionalism and ethical conduct.
+• Coffee House Kitchen Employee
+Associated Students of the University of California, Davis	March 2022-September 2023
+-Prepare a variety of menu items, adhering to established recipes.
+-Perform food preparation duties such as washing, cutting, and marinating.
+-Collaborate effectively with the team to streamline kitchen operations.
+
+我没有发表过论文，相关的研究经历，或荣誉奖项。我觉得统计专业似乎比较需要修完研究生
+
+我的个人兴趣：Psychology: Self-study and coursework in psychology, exploring human behavior and mental processes, refining critical-thinking. 
+Computer assembly and repair: Build and troubleshoot computers, showcasing technical skills and problem-solving abilities.
+Golf: Enjoy golfing, developing patience and strategic thinking.
+Drumming: Practice drumming, enhancing creativity and concentration.
+额外我还很擅长并且喜欢做饭，基本上每天都会做料理，并且做的很好吃
